@@ -1,0 +1,73 @@
+html{
+    background-image: linear-gradient(to right , rgba(240, 128, 128, 0.43), rgba(255, 218, 185, 0.34));
+}
+/*.rainbow{*/
+/*}*/
+header img{
+    height: 300px;
+    width: auto;
+}
+.rainbow{
+    position: relative;
+    transform-origin: top left;
+    transform: skewY(3deg);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+.rainbow p{
+    opacity: 0;
+}
+.rainbow div:hover{
+    transform: scaleX(2) translate(10px, 0px);
+    transition: 1.5s;
+    opacity: 1;
+}
+
+.rainbow p:hover{
+    opacity: 1;
+    transition: 1.5s;
+    transform: scaleY(1.5);
+}
+
+#R {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.15), red, rgba(255, 218, 185, 0.34));
+    width: 100px;
+    margin-left: 20px;
+}
+#O {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.18), orangered, rgba(255, 218, 185, 0.34));
+    width: 180px;
+    margin-left: 100px;
+}
+#G {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.14), yellow, rgba(255, 218, 185, 0.34));
+    width: 260px;
+    margin-left: 180px;
+
+}
+#V {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.15), green, rgba(255, 218, 185, 0.34));
+    width: 340px;
+    margin-left: 260px;
+
+}
+#A {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.11), dodgerblue, rgba(255, 218, 185, 0.34));
+    width: 420px;
+    margin-left: 340px;
+
+}
+#I {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.13), indigo, rgba(255, 218, 185, 0.34));
+    width: 500px;
+    margin-left: 420px;
+}
+#Vi {
+    background-image: linear-gradient(to right , rgba(245, 245, 245, 0.13), violet, rgba(255, 218, 185, 0.34));
+    width: 580px;
+    margin-left: 500px;
+
+}
+
+

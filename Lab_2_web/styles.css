@@ -1,0 +1,33 @@
+html{
+    background-image: linear-gradient(to left , ghostwhite, ghostwhite, #ff5d73);
+}
+
+#hover{
+    background-image: linear-gradient(to left, ghostwhite, aquamarine);
+    column-gap: normal;
+    border: 1px solid black;
+}
+
+#hover th {
+    border: 1px solid black;
+}
+#hover td{
+    text-align: center;
+}
+#hover img{
+    opacity: 0.3;
+}
+#hover img:hover {
+    opacity: 1;
+    transition: 2s;
+    transform: scale(1.3);
+}
+#hover {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    text-align: center;
+    padding: 20px;
+}

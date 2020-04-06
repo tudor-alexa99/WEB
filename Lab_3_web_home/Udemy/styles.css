@@ -1,0 +1,282 @@
+/*================== Header =======================*/
+.main_header {
+    display: flex;
+    margin-left: 5%;
+    padding-left: 0;
+    background-color: white;
+    height: 60%;
+}
+.header_text{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    /*background-color: whitesmoke;*/
+    color: grey;
+    font-size: 20px;
+}
+
+.second_header_text{
+    color: grey;
+    /*align-items: start;*/
+    margin: 0;
+    background-color: white;
+    place-items: flex-start;
+    padding: 2px;
+    font-size: 20px;
+}
+#header_container{
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    height: 100px;
+}
+
+.second_header{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    padding: 5px;
+    height: 30%;
+}
+
+.headers_separator{
+    background-image: linear-gradient(to right, whitesmoke, grey, whitesmoke);
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+}
+
+#searchbar{
+    float: left;
+    width: 40%;
+    padding: 8px;
+    border-left: none;
+    cursor: text;
+    text-align: left;
+    background-color: whitesmoke;
+    }
+
+#udemy_logo{
+    align-self: center;
+}
+
+#log_in{
+    background-color: whitesmoke;
+    border: 0.1px solid black;
+}
+
+#sign_up{
+    background-color: #0f7c90;;
+    color: white;
+
+}
+.header_button{
+    border: none;
+    padding: 10px;
+    margin: 2px;
+}
+
+/* =================================================*/
+
+
+/*==========================Main=====================*/
+
+body{
+    margin: 0;
+}
+
+.full_width_div{
+    display: flex;
+    background-image: linear-gradient(to bottom, #29303B,#29303B,#29303B);
+    justify-content: center;
+
+}
+
+#enroll_title{
+    font-family: "open sans", "helvetica neue", sans-serif ;
+    font-size: 36px;
+    line-height: 80px;
+}
+.enroll_page_container{
+    display: flex;
+    padding: 40px;
+}
+.enroll_page_text{
+    margin: auto;
+    color: whitesmoke;
+    line-height: 30px;
+    font-family: "Helvetica", sans-serif;
+}
+
+#left_text_container{
+    /*background-color: #ec5252;*/
+    display: flex;
+    width: 50%
+    align-self: start;
+    justify-content: flex-start;
+
+}
+.interact_container{
+    display: flex;
+    justify-content: center;
+}
+
+#headline{
+    font-family: "open sans", sans-serif;
+    font-size: 21px;
+}
+
+#statistics_text{
+    margin-left: 0;
+}
+
+.video_course{
+    padding: 0 50px 0 50px;
+    margin-left: 30px;
+}
+.gift_course{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+.wishlist{
+    display: flex;
+}
+
+#heart_icon{
+    padding: 5px;
+}
+
+#gift_course_text{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.bottom_divs_container{
+    display: flex;
+    position: relative;
+}
+
+#list_title{
+    margin-left: 7%;
+    color: #29303B;
+}
+.bottom_list_div ul li:before {
+    content: '✓  ';
+    color: grey;
+}
+li{
+    list-style: none;
+    max-width: 80%;
+    margin-right: 0;
+    margin-left: 0;
+    color: #575e6c;
+    font-size: 20px;
+}
+
+ul{
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 35px;
+    column-gap: 10%;
+    columns: 2;
+}
+
+.bottom_list_div{
+    border: 1px solid #b4b4b4;
+    margin-left: 15.3%;
+
+    max-width: 50%;
+    background-color: whitesmoke;
+}
+
+.buy_list_div{
+    width: 360px;
+    height: 700px;
+    background-color: whitesmoke;
+}
+
+#price_title{
+    color: #29303B;
+    font-family: "open sans", "helvetica neue", sans-serif ;
+    font-size: 36px;
+}
+
+.buy_buttons{
+    width: 85%;
+    padding: 16px 12px;
+    font-size: 15px;
+    line-height: 1.35135;
+    border-radius: 2px;
+    margin: 2% 5% 0 10%;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: "open sans", "helvetica neue", sans-serif;
+    color: grey;
+}
+
+#add_to_cart{
+    background-color: #ec5252;
+    color: white;
+    font-size: 16px;
+}
+
+.buy_list_div h3{
+    padding-left: 20px;
+}
+
+.buy_list_text{
+    color: grey;
+    width: 80%;
+}
+
+.buy_list{
+    columns: 2;
+    column-gap: 10px;
+}
+.buy_list li{
+    list-style-type: none;
+    list-style-image: none;
+    font-size: 15px;
+    padding: 0;
+
+}
+.li_icons{
+    width: 20%;
+    margin: 0 5px;
+}
+
+.li_icons img{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+}
+
+.buy_list_content{
+    font-family: "open sans", "helvetica neue", sans-serif;
+    color: grey;
+    margin-left: -120px;
+}
+
+#apply_cupon{
+    color: #0f7c90;
+    border: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+#share_button{
+    color: #0f7c90;
+    border: none;
+    height: 70px;
+}
+
+
+/*========================== footer ============================*/
+
+footer{
+    margin-top: 550px;
+}
