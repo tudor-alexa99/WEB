@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.5.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#button').click(function () {
+                var currentPage = $('.page.active');
+                currentPage.addClass('z-index-1');
+
+
+
+                var nextPage = currentPage.next();
+                nextPage.addClass('z-index-0');
+
+                // console.log(currentPage);
+                nextPage.addClass('active');
+
+                currentPage.animate({left:'100%'}, "slow", function () {
+                    currentPage.removeClass('active');
+                    nextPage.addClass("z-index-1");
+                });
+
+            });
+        });
+    </script>
+</head>
+<body id="page_container">
+    <div class="page active" id="bruno_mars">
+        <div class="song_container">
+            <h3 class="song_title">24K Magic</h3>
+            <img src="images/bruno-disco.jpg" class="album_cover_image">
+            <h4 class="artist_name">Bruno Mars</h4>
+        </div>
+    </div>
+    <div class="page" id="weeknd">
+        <div class="song_container">
+            <h3 class="song_title">Starboy</h3>
+            <img src="images/3af0e55ea66ea69e35145fb108b4a636.jpg" class="album_cover_image">
+            <h4 class="artist_name">The Weeknd</h4>
+        </div>
+    </div>
+    <div class="page" id="regele">
+        <div class="song_container">
+            <h3 class="song_title">Nebunia lui Salam</h3>
+            <img src="images/Nebunia-Lui-Salam-English-2018-20180103231222-500x500.jpg" class="album_cover_image">
+            <h4 class="artist_name">Florin Salam </h4>
+        </div>
+    </div>
+    <div class="page" id="lastPage">
+        <div class="song_container">
+            <p id="empty">YOUR QUEUE IS EMPTY</p>
+            <img src="images/icons8_musical_notes_64.png" style="padding-left: 40%">
+        </div>
+    </div>
+    <button id="button">Next Song</button>
+</body>
+</html>

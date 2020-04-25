@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#page_container{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#bruno_mars{
+    background-image: linear-gradient(to right, #ffb540, whitesmoke);
+
+}
+#weeknd{
+    background-image: linear-gradient(to right, teal, black);
+}
+#regele{
+    background-image: linear-gradient(to top,  lightblue, lightgray);
+}
+.album_cover_image{
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+
+.song_container{
+
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.artist_name{
+    font-size: 60px;
+    font-family: Georgia, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%
+}
+.song_title{
+    font-family: Corbel, Serif, serif;
+    font-size: 55px;
+    padding-left: 30%;
+}
+.page.active{
+    display: flex;
+}
+
+.page{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+#empty{
+    font-size: 50px;
+    color: grey;
+    justify-content: center;
+}
+
+#button{
+    position: absolute;
+    left: 90%;
+    right: auto;
+    top: 85%;
+    color: indianred;
+    font-size: 30px;
+    border-style: none;
+    z-index: 100;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.z-index-0{
+    z-index: -1;
+}
+
+.z-index-1{
+    z-index: 1;
+}

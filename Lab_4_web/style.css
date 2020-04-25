@@ -1,0 +1,61 @@
+html{
+    background-image: linear-gradient(to left, azure, azure, whitesmoke);
+}
+
+.main_menu{
+    list-style-type: none;
+}
+
+header{
+    margin-left: 3.5%;
+    margin-top: 2%;
+}
+
+.main_menu_item{
+    /*display: none;*/
+    background-color: lightcoral;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 15px;
+    max-width: 100px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.submenu_item{
+    display: none;
+    background-color: indianred;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 40px;
+    max-width: 100px;
+    font-size: 17px;
+    color: whitesmoke;
+    opacity: 30%;
+    transition: 2s;
+}
+.submenu_item:hover{
+    opacity: 1;
+    transition: 1s;
+}
+#main_menu_nav{
+    display: none;
+    transition: opacity;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.submenu{
+    transition: .5s all linear;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.show{
+    opacity: 1;
+    display: block;
+}
