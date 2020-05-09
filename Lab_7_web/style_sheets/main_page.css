@@ -1,0 +1,39 @@
+html{
+    background-color: rgba(255, 127, 80, 0.336);
+}
+header{
+    text-align: center;
+    font-size: 25px;
+    font-family: Calibri;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    border: whitesmoke solid;
+    margin-bottom: 2%;
+}
+
+.image_container{
+    text-align: center;
+}
+
+#brand_logo{
+    display: inline-block;
+    width: 25%;
+    height: 15%;
+}
+
+
+.button {
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  

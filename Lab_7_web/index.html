@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuarantINC</title>
+    <link rel="stylesheet" type="text/css" href="style_sheets/main_page.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="style_sheets/action_center.css" media="screen">
+    <script src="javascript_files/jquery-3.5.0.min.js"></script>
+</head>
+<body>
+    <header>QuarantINC - for those who want some PANDEMIC! at the disco</header>
+    <main class="main_container">
+        <div class="image_container">
+            <img class="image" id="brand_logo" src="images/Q-Inc.-logo.png">
+        </div>
+        <div class="action_center_container">
+            <h3>How about you meet our non-bored empoyees?</h3>
+            <div class="search_bar_container">
+                <label>Look for people in a position: </label>
+                <textarea class="input_field" id="search_text"></textarea>
+                <button class="button" id="search_button">Search</button>
+                <label id="last_search">Last search:</label> 
+            </div>
+            <div class="test_div"></div>
+            <div class="table_container">
+                <!-- add table stuff here -->
+                <script src="javascript_files/table_functions.js"></script>
+            </div>
+
+        </div>
+        <div id="crud_container">
+            <div id="buttons_container">
+                <button class="button" id = "add_button">Add new</button>
+                <button class="button" id = "update_button">Update</button>
+            </div>
+            <div class="crud_menu">
+                <!-- <script src="javascript_files/table_functions.js"></script> -->
+                <label>Id:</label>
+                <textarea id  ="id_field"></textarea>
+                <label>First name:</label>
+                <textarea id  ="f_name"></textarea>
+                <label>Last name:</label>
+                <textarea id  ="l_name"></textarea>
+                <label>Position:</label>
+                <textarea id  ="position"></textarea>
+                <label>Salary:</label>
+                <textarea id  ="salary"></textarea>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
